@@ -1,0 +1,176 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  margin : 33px;
+  line-height: 18px;
+}
+
+.top h1 {
+  font-size: 26px;
+}
+
+.top-p {
+  font-size: 13px;
+  margin: 33px;
+}
+
+.top h1, .top-p {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.index-box {
+  margin: 33px;
+}
+
+.show-box {
+  margin: 33px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.show-p {
+  margin: 33px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.edit-notice {
+  margin: 33px;
+  color: green;
+}
+
+.index-box {
+  font-size: 13px;
+  margin: 33px;
+  line-height: 18px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.index-h1 {
+  font-size: 26px;
+  margin: 17.5px 0;
+}
+
+.index-title {
+  width: 140px;
+  height: 24px;
+   padding: 1px 1px 5px;
+ }
+
+.index-body {
+  width: 400px;
+  height: 26px;
+   padding: 1px 1px 5px;
+ }
+
+.index-button {
+  height: 24px;
+  padding: 1px 1px 5px;
+ }
+
+.td-box {
+   margin: 33px;
+   padding: 1px 5px 7px;
+ }
+
+.td-button {
+   padding: 1px 5px 7px;
+ }
+
+.index-new {
+  margin: 16px 0;
+  }
+
+  .field {
+    margin-bottom: 10px;
+  }
+
+.new-box {
+  display: block;
+  }
+input[type=text] {
+  padding: 1px 2px;
+}
+
+input[type=submit] {
+  padding: 1px 6px;
+}
+
+textarea{
+  padding: 2px;
+}
+
+.edit-box {
+  margin: 33px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.edit-h1 {
+  margin: 17.5px 0;
+}
+
+.edit-field {
+  margin-bottom: 10px;
+}
+
+.edit-button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.error-info {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error-text {
+  font-size: 12px;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error-ul {
+  padding-left: 40px;
+  margin: 33px;
+}
+
+.error-list {
+  font-size: 12px;
+  display: list-item;
+}
+
+label {
+  display: block;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
